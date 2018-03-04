@@ -1,0 +1,21 @@
+
+  <div class="header">
+    <h3>Life Goal Bucket List</h3>
+  </div>
+  <div class="content">
+    <ul>
+      This is what I'm all about.
+      <li>MARS</li>
+      <li>BSIT-32A</li>
+      <li>A Project for IT321 - Web Development</li>
+    </ul>
+  </div>
+    <br><br>
+    <button><a href="" (click)="sendMeHome()"><strong>Go back to Home</strong></a></button><br>
+    <ul>
+        <li *ngFor="let goal of goals">
+          {{goal}} <br>
+        </li>
+    </ul>
+    
+    
